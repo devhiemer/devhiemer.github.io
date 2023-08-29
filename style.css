@@ -1,0 +1,337 @@
+body{
+  margin: 0;
+  padding: 0;
+  background : rgb(255, 255, 255);
+  background-size: 100%;
+}
+.box{
+  width: 595px;
+  background: rgb(0, 0, 0);
+  padding: 1px;
+  text-align: justify;
+  margin: auto;
+  margin-top: 1%;
+  color: rgb(60,136,50,255);
+  font-family:monospace;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 5%;
+}
+.box:hover
+{
+  width: 595px;
+  background-color: rgba(250, 250, 250, 0.253);
+  transition: background-color 1.5s;
+  padding: 1px;
+  text-align: justify;
+  margin: auto;
+  margin-top: 1%;
+  color: rgb(60,136,50,255);
+  font-family:monospace;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 5%;
+}
+.box-img{
+  display: block;
+  border-radius: 75%;
+  width: 250px;
+  height: 300px;
+  box-shadow: 5px 10px 40px rgba(0, 0, 0, 0.6);
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box-img:hover
+{
+  display: block;
+  border-radius: 55%;
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 10px 40px rgb(228, 121, 33);
+  transition: box-shadow 1.5s;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ h2
+{
+  color: rgb(233, 137, 13);
+  text-align: center;
+  font-size: 30px;
+}
+h1{
+  font-size: 50px;
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 4px;
+  font-weight: 180;
+  text-align: center;
+  align-items: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.527);
+}
+h1:hover
+{
+  font-size: 52px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-align: center;
+  color: rgb(82, 57, 48);
+  text-shadow: 5px 5px 5px rgba(134, 118, 105, 0.801);
+}
+h4{
+  font-size: 22px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.527) ;
+
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  text-align: center;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box h4{
+  text-align: center;
+}
+.box p{
+  text-align: justify;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.box p2{
+text-align: justify;
+font-size: 15px;
+color: #ff0000;
+}
+.box p4{
+  text-align: justify;
+  font-size: 15px;
+  color: rgb(0, 38, 255);
+}
+.box p6{
+  text-align: center;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box3 li{
+  display: inline-block;
+  margin-top: 50px;
+  margin: 10px;
+  list-style: none;
+  box-shadow:10px 10px 10px rgba(0, 0, 0, 0.644);
+  box-sizing: content-box;
+  height: 75px;
+  width: 90px;
+}
+.box3 li a{
+  color: rgba(0, 0, 0, 0.486);
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box3 li a:hover{
+  color: #000000;
+  font-size: 75px;
+  padding-top: 10%;
+}
+.blinker { 
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1,0,0,1);
+  animation-duration: 1s;
+  cursor: text ;
+
+  display: inline-block;
+  width: 5px;
+  height: 16px;
+  margin-left: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(white,.3);
+  background: #20ad04;
+
+}
+
+@keyframes blinker { 
+  from { opacity: 1.0; } to { opacity: 0.0; }
+}
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  margin: 100 ;
+  float: center;
+  color: #d13838;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+  border-radius: 5% ;
+  padding-top: 2px;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #20ad04;
+  color: white;
+  padding-top: 2px;
+  border-radius: 10%;
+}
+.activep
+{
+  background-color: #20ad04;
+  color: #f2f2f2;
+  padding-top: 2%;
+  border-radius: 5%;
+  font-size: 22px;
+  float: center;
+  overflow: hidden;
+  opacity: 0.5;
+
+}
+.box2{
+  width: 900px;
+  background: rgb(0, 0, 0);
+  padding: 1px;
+  text-align: center;
+  margin: auto;
+  margin-top: 1%;
+  color: rgb(60,136,50,255);
+  font-family:monospace;
+  animation:ease-in;
+}
+.box3{
+  width: 600px;
+  background: rgba(255, 248, 248, 0.404);
+  padding: 1px;
+  text-align: center;
+  margin: auto;
+  margin-top: 1%;
+  color: rgb(60,136,50,255);
+  font-family:monospace;
+  animation:ease-in;
+  border-radius: 1%;
+}
+.box2 p{
+  color: rgb(60,136,50,255);;
+  font-size: 15px;
+  text-align: justify;
+}
+.box2 p2{
+  text-align: justify;
+  font-size: 15px;
+  color: #ff0000;
+}
+.box2 p4{
+  text-align: justify;
+  color:rgb(0, 38, 255) ;
+}
+.box2 p6{
+  text-align: justify;
+  color: aqua;
+}
+.headingc
+{
+  color: rgb(255, 174, 0);
+  text-align: center;
+  font-size: 60px;
+  font-family: monospace;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.textc 
+{
+  color: aliceblue;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+
+}
+.headingc2
+{
+  color: #fc0000;
+  text-align: left;
+  font-size: 20px;
+  font-family: monospace;
+  font-style: initial, italic,bold;
+  text-align: justify;
+}
+.box2 a{
+  color: rgb(243, 200, 7) ;
+}
+.box2 p5{
+  color: aliceblue;
+  text-align: justify;
+
+}
+.posim1
+{
+  display: block;
+  margin-left: justify;
+  margin-right: justify;
+  width: 50%;
+  border-radius: 55%;
+  position: static;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.imgart
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 350px;
+  border-radius: 90%;
+  position: static;
+  margin-left: 20%;
+}
+.readmore
+{
+  color: rgb(0, 0, 0);
+  background-color: rgb(252, 138, 0);
+  border: none;
+  height: 45px;
+  width: 90px;
+  font-size: 14px;
+  size: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 1s;
+  transition: color 1.5s;
+}
+.readmore:hover
+{
+  color:rgb(255, 255, 255);
+  background-color: rgb(255, 51, 0);
+}
+.readmore:active
+{
+  opacity: 0.2;
+}
